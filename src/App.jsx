@@ -19,9 +19,9 @@ function App() {
         {isLogin ? <Navbar2/> :<Navbar1 />}
         <Routes>
         <Route path='/' element={<Feeds/>}/>
-          {/* <Route path='/' element={<LandingPage/>} /> */}
+          {/* <Route path='/' element={<LandingPage/>} />  */}
           {/* <Route path='/signUp' element={<SignUp/>} /> */}
-          {/* <Route path='/Login' element={<Login/>}/> */}
+           {/* <Route path='/Login' element={<Login/>} /> */}
         </Routes>
         <Footer />
       </div>
